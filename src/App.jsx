@@ -72,7 +72,7 @@ function App() {
               return (
                 <li className="page" key={photo.id + photo.title}>
 
-                  <div className="page-id">{photo.id} {photo.albumId}</div>
+                  <div className="page-id">Номер картинки: {photo.id} из альбома {photo.albumId}</div>
                   <div className="page-title">{photo.title}</div>
                   <img src={photo.thumbnailUrl} alt="page icon"></img>
                 </li>
